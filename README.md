@@ -8,14 +8,13 @@ cd ~/[your_workspace]
 colcon build
 source install/setup.bash
 ```
-
 ## Implementation
 - 1.) Run ros2 lanuch 
 ```
 ros2 launch fibo_turtlesim_control fibo_via_point.launch.py 
 ```
 ## Result
-![alt text](https://pic.in.th/image/dwMiJt)
-
+![alt text](https://cdn.pic.in.th/file/picinth/imagefa8b7621f7223f0e.png) 
+ 
 ## System Diagram
-![alt text](https://pic.in.th/image/dwMW9n) 
+![alt text](https://cdn.pic.in.th/file/picinth/fibo_via_point.launch.py.png)
