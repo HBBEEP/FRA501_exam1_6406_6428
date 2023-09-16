@@ -16,7 +16,7 @@ class TurtleStandby(Node):
     def timer_callback(self): # timer 
         if (self.start_init == True and self.count_finish == 4):
             self.init_time += 0.01
-        if (self.init_time >= 3.0):
+        if (self.init_time >= 5.0):
             self.start_init = False
             message = Bool()
             message.data = True
